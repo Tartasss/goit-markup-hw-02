@@ -69,7 +69,7 @@ a {
   text-align: center;
 }
 
-.hero-btn {
+.hero .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -80,8 +80,8 @@ a {
   background: #4d5ae5;
 }
 
-.hero-btn :hover,
-.hero-btn :focus {
+.hero .button :hover,
+.hero .button :focus {
   background-color: #404bbf;
 }
 
@@ -97,15 +97,6 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.features {
-}
-
-.features-list {
-}
-
-.features-item {
 }
 
 .features-subtitle {
